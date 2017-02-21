@@ -34,8 +34,8 @@
 4. Edição e exclusão de tarefa
 5. Exibir alerta de confirmaçao de exclusão
 
-*Obs.: Não é obrigatório criar página de login, mas caso queira será considerado um diferencial*
-*Obs2.: Não é obrigatório seguir fielmente as cores e icones do protótipo, mas é importante tentar seguir a mesma estrutura*
+*Obs.: Não é obrigatório criar página de login, mas caso queira será considerado um diferencial* <br>
+*Obs².: Não é obrigatório seguir fielmente as cores e icones do protótipo, mas é importante tentar seguir a mesma estrutura*
 
 ### Especificações técnicas
 > O app deve se comunicar com uma base de dados externa via REST API, para isso recomendamos a utilização do [Firebase](https://firebase.google.com). <br>
