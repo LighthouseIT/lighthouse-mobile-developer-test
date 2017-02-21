@@ -8,7 +8,8 @@
 
 ### Requisitos
 - Ionic Framework (http://ionicframework.com)
-- Angular2 e TypeScript (https://angular.io/ - http://www.typescriptlang.org/)
+- Angular2 e TypeScript (https://angular.io - http://www.typescriptlang.org)
+- Cordova (https://cordova.apache.org)
 - Noções de SASS
 - Noções de HTML e Custom Elements
 - Banco de dados NOSQL (MongoDB, Firebase, etc)
