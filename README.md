@@ -2,7 +2,7 @@
 
 > [![Lighthouse Logo](http://i.imgur.com/c5f1f6O.png)](http://www.lighthouseit.com.br)
 >
-> Todos que os interessados que fizerem pull request receberão um feedback da Lighthouse.<br>
+> Todos os interessados que fizerem Pull Request receberão um feedback da Lighthouse.<br>
 > Essa prova consiste em testar seus conhecimentos em desenvolvimento de aplicações mobile hibridas.
 > Estamos priorizando desenvolvedores com conhecimento em Ionic Framework, mas caso tenha conhecimento em outras ferramentas para desenvolvimento de apps hibridos, fique a vontade para usa-los.
 
