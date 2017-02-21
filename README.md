@@ -12,7 +12,7 @@
 - Cordova (https://cordova.apache.org)
 - Noções de SASS
 - Noções de HTML e Custom Elements
-- Banco de dados NOSQL (MongoDB, Firebase, etc)
+- Banco de dados NoSQL (MongoDB, Firebase, etc)
 
 ### Desejáveis
 - Scrum
