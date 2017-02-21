@@ -56,8 +56,8 @@
 
 [![Menu](http://i.imgur.com/U443Ore.jpg)](http://i.imgur.com/Zpj5lwj.png)
 [![List](http://i.imgur.com/Eb88PkA.jpg)](http://i.imgur.com/0zihnYm.png)
-[![Create](http://i.imgur.com/JasdH0X.jpg)](http://i.imgur.com/oiZqAzl.png)
-[![Edit](http://i.imgur.com/IY2NR7i.jpg)](http://i.imgur.com/3gGPWFL.png)
+[![Create](http://i.imgur.com/KacMBSo.jpg)](http://i.imgur.com/6Fb53k7.png)
+[![Edit](http://i.imgur.com/Wf478tT.jpg)](http://i.imgur.com/gL8OMVF.png)
 
 ## Dúvidas?
 > donald.silveira@lighthouseit.com.br <br>
