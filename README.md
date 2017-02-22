@@ -1,4 +1,4 @@
-# Teste para candidatos a vaga de Hybrid App Developer
+# Teste para candidatos a vaga de Desenvolvedor Mobile
 
 > [![Lighthouse Logo](http://i.imgur.com/c5f1f6O.png)](http://www.lighthouseit.com.br)
 >
