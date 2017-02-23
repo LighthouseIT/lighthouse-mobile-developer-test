@@ -1,0 +1,34 @@
+<ion-menu [content]="content">
+
+	<ion-header>
+
+		<div class="menu-background" style="background-image: url(assets/img/1.jpg);">
+
+			<div class="profile-image">
+				<div class="image" style="background-image: url(assets/img/2.jpg);">
+				</div>
+			</div>
+
+			<ion-item class="email">
+				alvarosilveiraa@gmail.com
+				<ion-icon name="arrow-dropdown" color="light" item-right></ion-icon>
+			</ion-item>
+
+		</div>
+
+		<ion-item>
+			<h4 ion-text color="secondary">To Do</h4>
+		</ion-item>
+	</ion-header>
+
+	<ion-content>
+
+		<ion-list>
+			<a ion-item><b>Configurações</b></a>
+			<a ion-item><b>Sair</b></a>
+		</ion-list>
+	</ion-content>
+
+</ion-menu>
+
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

@@ -1,0 +1,70 @@
+<ion-header>
+	<ion-navbar hideBackButton="true" color="primary">
+
+		<ion-buttons left>
+			<button style="padding: 10px;" ion-button icon-only (click)="goHome()">
+				<ion-icon name="arrow-back" color="dark-primary"></ion-icon>
+			</button>
+		</ion-buttons>
+		<ion-title>{{task._id != null? 'Edição da tarefa': 'Adicionar nova tarefa'}}</ion-title>
+
+		<ion-buttons end *ngIf="task._id" (click)="removeTask()">
+			<button style="padding: 10px;" ion-button icon-only>
+				<ion-icon name="trash"></ion-icon>
+			</button>
+		</ion-buttons>
+
+	</ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+	<ion-list>
+		<ion-item>
+			<ion-label stacked color="primary">Título</ion-label>
+			<ion-input type="text" style="font-size: 2em;" [(ngModel)]="task.title"></ion-input>
+		</ion-item>
+
+		<ion-item>
+			<ion-label stacked color="primary">Descrição</ion-label>
+			<ion-textarea rows="3" [(ngModel)]="task.description"></ion-textarea>
+		</ion-item>
+
+		<ion-row>
+			<ion-col width-67>
+				<ion-item>
+					<ion-label stacked color="primary">Data e hora de conclusão</ion-label>
+					<ion-datetime displayFormat="DDD, MMM DD YYYY"
+						pickerFormat="DD MMMM YYYY"
+						min="{{today.getFullYear() - 1}}" max="{{today.getFullYear() + 20}}"
+						dayShortNames="Dom, Seg, Ter, Qua, Qui, Sex, Sab"
+						monthNames="Janeiro, Fevereiro, Mar\u00e7o, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro"
+						monthShortNames="Jan, Fev, Mar, Abr, Mai, Jun, Jul, Ago, Set, Out, Nov, Dez"
+						[(ngModel)]="task.date"
+					></ion-datetime>
+				</ion-item>
+			</ion-col>
+
+			<ion-col width-33>
+				<ion-item>
+					<ion-label stacked>.</ion-label>
+					<ion-datetime displayFormat="HH:mm A" [(ngModel)]="task.time"></ion-datetime>
+				</ion-item>
+			</ion-col>
+		</ion-row>
+
+		<ion-item *ngIf="task._id">
+			<ion-label>Concluído?</ion-label>
+			<ion-checkbox color="secondary" [(ngModel)]="task.completed"></ion-checkbox>
+		</ion-item>
+
+	</ion-list>
+
+</ion-content>
+
+<ion-fab right bottom>
+	<button ion-fab color="secondary" (click)="saveOrUpdateTask()">
+		<ion-icon name="checkmark"></ion-icon>
+	</button>
+</ion-fab>
