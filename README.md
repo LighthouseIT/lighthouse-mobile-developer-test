@@ -1,4 +1,4 @@
-# Teste para candidatos a vaga de Desenvolvedor Mobile
+# Teste para Mobile Developer
 
 > [![Lighthouse Logo](http://i.imgur.com/c5f1f6O.png)](http://www.lighthouseit.com.br)
 >
@@ -7,15 +7,13 @@
 > Estamos priorizando desenvolvedores com conhecimento em Ionic Framework, mas caso tenha conhecimento em outras ferramentas para desenvolvimento de apps hibridos, fique a vontade para usa-los.
 
 ### Requisitos
-- Ionic Framework (http://ionicframework.com)
-- Angular2 e TypeScript (https://angular.io - http://www.typescriptlang.org)
-- Cordova (https://cordova.apache.org)
-- Noções de SASS
-- Noções de HTML e Custom Elements
+- Ionic Framework (http://ionicframework.com) ou React Native (https://facebook.github.io/react-native/)
+- React (https://facebook.github.io/react/)
+- Native Components
+- JSX
 - Banco de dados NoSQL (MongoDB, Firebase, etc)
 
 ### Desejáveis
-- Scrum
 - Testes unitários
 
 ## Como participar?
