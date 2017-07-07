@@ -9,6 +9,7 @@
 ### Requisitos
 - Ionic Framework (http://ionicframework.com) ou React Native (https://facebook.github.io/react-native/)
 - React (https://facebook.github.io/react/)
+- Material Design (https://material.io/guidelines/)
 - Native Components
 - JSX
 - Banco de dados NoSQL (MongoDB, Firebase, etc)
