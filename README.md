@@ -1,13 +1,13 @@
-# Teste para Mobile Developer
+# Teste para React Native Developer
 
 > [![Lighthouse Logo](http://i.imgur.com/c5f1f6O.png)](http://www.lighthouseit.com.br)
 >
 > Todos os interessados que fizerem Pull Request receberão um feedback da Lighthouse.<br>
-> Essa prova consiste em testar seus conhecimentos em desenvolvimento de aplicações mobile hibridas.
-> Estamos priorizando desenvolvedores com conhecimento em Ionic Framework, mas caso tenha conhecimento em outras ferramentas para desenvolvimento de apps hibridos, fique a vontade para usa-los.
+> Essa prova consiste em testar seus conhecimentos em desenvolvimento de aplicações mobile cross-platform.
+> Estamos priorizando desenvolvedores com conhecimento em React Native, mas caso tenha conhecimento em outros frameworks para desenvolvimento de apps cross-platform, fique a vontade para usa-los.
 
 ### Requisitos
-- Ionic Framework (http://ionicframework.com) ou React Native (https://facebook.github.io/react-native/)
+- React Native (https://facebook.github.io/react-native/)
 - React (https://facebook.github.io/react/)
 - Material Design (https://material.io/guidelines/)
 - Native Components
